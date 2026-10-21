@@ -2,7 +2,7 @@
 
 A simple "Hello World" message app deployed on a highly available 3-tier AWS architecture. Users can view and add messages, which are stored in a MySQL database.
 
-![Architecture Diagram](./infrastructure/aws-three-tier-architecture.png)
+![Architecture Diagram](./aws-three-tier-architecture.png)
 
 ## Architecture
 
