@@ -1,0 +1,9 @@
+{
+  "Records": [
+    {
+      "Sns": {
+        "Message": "{\"AlarmName\":\"three-tier-app-app-unhealthy-hosts\",\"AlarmDescription\":\"Unhealthy app targets behind the internal ALB\",\"NewStateValue\":\"ALARM\",\"OldStateValue\":\"OK\",\"NewStateReason\":\"Threshold Crossed: 2 datapoints [1.0, 1.0] were greater than or equal to the threshold (1.0).\",\"StateChangeTime\":\"2026-11-08T10:15:00.000+0000\",\"Trigger\":{\"Namespace\":\"AWS/ApplicationELB\",\"MetricName\":\"UnHealthyHostCount\",\"Dimensions\":[{\"name\":\"TargetGroup\",\"value\":\"targetgroup/three-tier-app-app-tg/abc123\"}],\"ComparisonOperator\":\"GreaterThanOrEqualToThreshold\",\"Threshold\":1.0,\"Period\":300,\"EvaluationPeriods\":2}}"
+      }
+    }
+  ]
+}
